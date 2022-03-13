@@ -1,0 +1,27 @@
+Q#1
+$ grep -i "^Z" cities.txt
+Zaoshi
+Zhukeng
+Zhongxi
+Zwettl
+Zaragoza
+Zheshart
+Zhuji
+Zadvorsko
+Zhoujia
+
+Q#2
+$ grep -i "gan$" cities.txt
+Tougan
+Pedaringan
+Banjar Sambangan
+Salingogan
+
+Q#5
+$ grep -c -v "^C" cities.txt
+477
+
+Q#6
+$ grep -c "^B" cities.txt
+39
+
