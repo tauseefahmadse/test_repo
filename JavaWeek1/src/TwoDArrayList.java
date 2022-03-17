@@ -26,7 +26,8 @@ public class TwoDArrayList {
 		
 		System.out.println(homeGrocery.size());
 		
-			System.out.println(homeGrocery);
+			//System.out.println(homeGrocery);
+			System.out.println(homeGrocery.get(0).get(1));
 		
 	}
 
