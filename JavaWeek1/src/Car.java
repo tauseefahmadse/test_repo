@@ -1,4 +1,5 @@
 // Car Class for JavaObjects.java
+//overriding toString method for ToStringMethod.java
 public class Car {
 	String maker= "Honda";
 	String model= "City";
@@ -12,5 +13,9 @@ public class Car {
 		System.out.println("brake");
 	}
 	
+	public String toString() 
+	{
+		return maker +"\n"+ model+"\n"+ Color+"\n"+ price;
+	}
 	
 }

@@ -1,0 +1,9 @@
+// main class ArrayOfObjects.java
+public class Food {
+	String name;
+	Food(String name)
+	{
+		this.name= name;
+	}
+
+}
