@@ -4,6 +4,7 @@ public class ArrayOfObjects {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		//Food[] cabin = new Food[3];
 		
 		Food food1 = new Food("Potato");

@@ -9,6 +9,7 @@ public class JavaRandom {
 		//double y = random.nextDouble();
 		boolean z = random.nextBoolean();
 		System.out.println(z);
+		
 	}
 
 }
